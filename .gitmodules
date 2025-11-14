@@ -1,0 +1,3 @@
+[submodule "mtk3_nonsecure/mtkernel"]
+	path = mtk3_nonsecure/mtkernel
+	url = https://github.com/tron-forum/mtkernel_3.git
