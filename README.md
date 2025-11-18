@@ -5,10 +5,6 @@ This extension is integrated into μT-Kernel 3.0 and operates as part of it. Thi
 μT-Kernel3.0 Secure Extension is developed by TRON Forum.  
 Its source code is released as open source under the condition of T-License2.2.  
 
-See below for T-License 2.2.  
-
-	/docs/TEF000-219-200401.pdf  
-
 For inquiries to TRON Forum, visit the following website  
 
 [TRON Forum  (https://www.tron.org)](https://www.tron.org)
@@ -21,10 +17,8 @@ For inquiries to TRON Forum, visit the following website
 
 μT-Kernel 3.0 Secure Extension はトロンフォーラムが開発しています。  
 μT-Kernel 3.0 Secure ExtensionのソースコードはT-License2.2に基づきオープンソースとして公開されています。  
-T-License2.2の内容は以下をご覧ください。  
-
-	/docs/TEF000-219-200401.pdf  
 
 トロンフォーラムへのお問い合わせは以下のWebサイトへ  
 
 [トロンフォーラム  (https://www.tron.org)](https://www.tron.org)
+
