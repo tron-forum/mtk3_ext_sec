@@ -14,7 +14,7 @@ For inquiries to TRON Forum, visit the following website
 本Extensionは、μT-Kernel 3.0に組み込まれ、その一部として動作します。本Extensionは、Arm v8-MアーキテクチャのTrustZone機能に対応しています。  
 
 [μT-Kernel 3.0 セキュア機能拡張 機能仕様書](documents/mtk3_ext_sec_jp.md)  
-[STM32N657-NUCLEO 向け 構築手順書](documents/cnst_stm32n6.md)
+[STM32N657-NUCLEO 向け 構築手順書](documents/cnst_stm32n6_jp.md)
 
 μT-Kernel 3.0 Secure Extension はトロンフォーラムが開発しています。  
 μT-Kernel 3.0 Secure ExtensionのソースコードはT-License2.2に基づきオープンソースとして公開されています。  
@@ -22,4 +22,5 @@ For inquiries to TRON Forum, visit the following website
 トロンフォーラムへのお問い合わせは以下のWebサイトへ  
 
 [トロンフォーラム  (https://www.tron.org)](https://www.tron.org)
+
 
