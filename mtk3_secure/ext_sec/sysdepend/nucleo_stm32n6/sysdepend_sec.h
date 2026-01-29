@@ -10,11 +10,6 @@
  *
  *----------------------------------------------------------------------
  */
-/*
- *    Modifications: Porting toKeil MDK
- *    Modified by UC Technology at 2025/11.
- */
-
  /*
  *	sysdepend_sec.h (NUCLEO-N657 depended)  **Secure**
  *	Secure Extension System-Dependent local defined
