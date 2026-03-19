@@ -1,12 +1,12 @@
 /*
  *----------------------------------------------------------------------
- *    micro T-Kernel 3.0 Secure Extension 1.00.B0
+ *    micro T-Kernel 3.0 Secure Extension 1.00.B2
  *
- *    Copyright (C) 2025 by Ken Sakamura.
+ *    Copyright (C) 2025 - 2026 by Ken Sakamura.
  *    This software is distributed under the T-License 2.2.
  *----------------------------------------------------------------------
  *
- *    Released by TRON Forum(http://www.tron.org) at 2025/11.
+ *    Released by TRON Forum(http://www.tron.org) at 2026/03.
  *
  *----------------------------------------------------------------------
  */
@@ -26,6 +26,10 @@
 
 #if defined(_STM32_NUCLEO_N657_EXTSEC_)
 #include <sys/sysdepend/nucleo_stm32n6/machine_sec.h>
+#endif
+
+#if defined(_RA_EK_RA8M1_EXTSEC_)
+#include <sys/sysdepend/ek_ra8m1/machine_sec.h>
 #endif
 
 /* ===== C compiler dependencies definitions ============================= */

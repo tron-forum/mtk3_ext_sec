@@ -1,0 +1,25 @@
+/*
+ *----------------------------------------------------------------------
+ *    micro T-Kernel 3.0 Secure Extension 1.00.B2
+ *
+ *    Copyright (C) 2026 by Ken Sakamura.
+ *    This software is distributed under the T-License 2.2.
+ *----------------------------------------------------------------------
+ *
+ *    Released by TRON Forum(http://www.tron.org) at 2026/03.
+ *
+ *----------------------------------------------------------------------
+ */
+
+ #ifndef _EXTSEC_SYSDEP_INT_EK_RA8M1_H_
+#define _EXTSEC_SYSDEP_INT_EK_RA8M1_H_
+
+/*
+ *	int_sec.h (EK-RA8M1 depended)  **Secure**
+ *
+ *	Secure Extension Interrupt controller
+ */
+
+#include "../cpu/core/armv8m/int_armv8m_sec.h"
+
+#endif	/* _EXTSEC_SYSDEP_INT_EK_RA8M1_H_ */
