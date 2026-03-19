@@ -1,12 +1,12 @@
 /*
  *----------------------------------------------------------------------
- *    micro T-Kernel 3.0 Secure Extension 1.00.B0
+ *    micro T-Kernel 3.0 Secure Extension 1.00.B2
  *
- *    Copyright (C) 2025 by Ken Sakamura.
+ *    Copyright (C) 2025 - 2026 by Ken Sakamura.
  *    This software is distributed under the T-License 2.2.
  *----------------------------------------------------------------------
  *
- *    Released by TRON Forum(http://www.tron.org) at 2025/11.
+ *    Released by TRON Forum(http://www.tron.org) at 2026/03.
  *
  *----------------------------------------------------------------------
  */
@@ -30,8 +30,16 @@
 /*
  * Task definition
  */
-#define	MIN_TZ_STACK_SIZE	128	// Minimum size of a task's secure stack
-#define	CNF_MAX_TSKID		32	// Maximum number of tasks
+#define	MIN_TZ_STACK_SIZE	128	/* Minimum size of a task's secure stack */
+#define	CNF_MAX_TSKID		32	/* Maximum number of tasks */
+
+/*---------------------------------------------------------------------- */
+/*
+ * System memory definition
+ */
+#define	USE_STATIC_SEC_SYSMEM	1		/* 1:Valid   0:invalid */
+#define	CNF_SEC_SYSMEM_SIZE	(32*128)	/* Memory size to statically allocate. */
+
 
 /*---------------------------------------------------------------------- */
 /* Use Co-Processor.

@@ -1,12 +1,12 @@
 /*
  *----------------------------------------------------------------------
- *    micro T-Kernel 3.0 Secure Extension 1.00.B0
+ *    micro T-Kernel 3.0 Secure Extension 1.00.B2
  *
- *    Copyright (C) 2025 by Ken Sakamura.
+ *    Copyright (C) 2025 -2026 by Ken Sakamura.
  *    This software is distributed under the T-License 2.2.
  *----------------------------------------------------------------------
  *
- *    Released by TRON Forum(http://www.tron.org) at 2025/11.
+ *    Released by TRON Forum(http://www.tron.org) at 2026/03.
  *
  *----------------------------------------------------------------------
  */
@@ -26,7 +26,6 @@
 /* Exception handler table (RAM) */
 EXPORT UW knl_exctbl[sizeof(UW)*(N_SYSVEC + N_INTVEC)]
 	__attribute__((section(".mtk_exctbl"))) __attribute__ ((aligned(EXCTBL_ALIGN)));
-
 
 EXPORT UW *knl_exctbl_o;	// Exception handler table (Origin)
 
@@ -64,7 +63,7 @@ EXPORT void knl_start_mtkernel(void)
 	}
 	out_w(SCB_VTOR, (UW)knl_exctbl);
 
-#if USE_CACHE
+#if USE_CACHE && CPU_HAS_CACHE
 	if(knl_check_dcache()) {	// Clear D-cache if it is valid
 		knl_clean_dcache_adr(knl_exctbl, sizeof(knl_exctbl));
 	}
@@ -73,7 +72,7 @@ EXPORT void knl_start_mtkernel(void)
 		knl_invalidate_icache();
 		knl_isb();
 	}
-#endif	/* USE_CACHE */
+#endif	/* USE_CACHE && CPU_HAS_CACHE */
 
 	/* Configure exception priorities */
 	reg = *(_UW*)SCB_AIRCR;
