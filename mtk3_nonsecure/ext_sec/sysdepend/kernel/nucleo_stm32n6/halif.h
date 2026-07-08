@@ -1,12 +1,12 @@
 ﻿/*
  *----------------------------------------------------------------------
- *    micro T-Kernel 3.0 Secure Extension 1.00.B0
+ *    micro T-Kernel 3.0 Secure Extension 1.00
  *
- *    Copyright (C) 2025 by Ken Sakamura.
+ *    Copyright (C) 2025 - 2026 by Ken Sakamura.
  *    This software is distributed under the T-License 2.2.
  *----------------------------------------------------------------------
  *
- *    Released by TRON Forum(http://www.tron.org) at 2025/11.
+ *    Released by TRON Forum(http://www.tron.org) at 2026/07.
  *
  *----------------------------------------------------------------------
  */
